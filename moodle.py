@@ -45,15 +45,15 @@ def main1(url):
 
 	except:
 		t=5
-if sys.argv[1] == "ELL":
+if sys.argv[1] == "ell":
 	main1("https://moodle.iitd.ac.in/course/view.php?id=11053")
-elif sys.argv[1] =="ELP":
+elif sys.argv[1] =="elp":
 	main1("https://moodle.iitd.ac.in/course/view.php?id=11713")
-elif sys.argv[1] =="PYL":
+elif sys.argv[1] =="pyl":
 	main1("https://moodle.iitd.ac.in/course/view.php?id=11358")
-elif sys.argv[1] =="MTL":
+elif sys.argv[1] =="mtl":
 	main1("https://hkkaushik.wordpress.com/courses/")
-elif sys.argv[1] =="COL":
+elif sys.argv[1] =="col":
 	main1("https://www.cse.iitd.ac.in/~aseth/col100-2021/col100.html")
 else:
 	print("please run the command in this format: python moodle.py coursecode")
