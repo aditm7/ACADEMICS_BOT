@@ -56,7 +56,7 @@ elif sys.argv[1] =="MTL":
 elif sys.argv[1] =="COL":
 	main1("https://www.cse.iitd.ac.in/~aseth/col100-2021/col100.html")
 else:
-	print("please run the command in this format: python3 moodle.py coursecode")
+	print("please run the command in this format: python moodle.py coursecode")
 
 
 
