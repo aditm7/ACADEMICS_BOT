@@ -5,11 +5,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import sys
 
-PATH = "/Users/aditmalhotra/Documents/geckodriver"
-
 #inputting the user id and password
-id = "ee1200458"
-pas = "426d7d31"
+id = ""
+pas = ""
 
 def main1(url):
 	driver = webdriver.Firefox()
