@@ -6,10 +6,10 @@ from selenium.webdriver.support import expected_conditions as EC
 import sys
 
 #inputting the user id and password
-moodle_id = "ee1200458"
-moodle_password = "426d7d31"
-impartus_id = "ee1200458@ee.iitd.ac.in"
-impartus_password = "adit2348"
+moodle_id = ""
+moodle_password = ""
+impartus_id = ""
+impartus_password = ""
 
 
 #function for wrong format entered
